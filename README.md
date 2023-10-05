@@ -24,3 +24,15 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 ``Converter uma string para Enum``
 Quando o uysuario envia uma string, de um form e tal, 
 - orderStatus.valueOf("DELIVERED");
+
+
+## Composições
+- Associação que permite que um objeto contenha outro
+- Relação - tem um ou vários
+- Coesao - cada objeto e responsavel por uma coisa
+- flexibilidade
+- Reuso
+
+
+## Ex
+Trabalhar com N contratos, solicitar um mes e mostrar qual foi o slário neste mes.
