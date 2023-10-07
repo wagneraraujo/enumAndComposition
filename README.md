@@ -8,7 +8,7 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 - `lib`: the folder to maintain dependencies
 
 ## Enumerações
-- Tipo especial para especificar de forma literam um conjunto de constantes relacioandas
+- Tipo especial para especificar de forma literal um conjunto de constantes relacioandas
 - enum
 - Clico de vida de um pedido, ex: pendingPayment => Processing => Shipped => Delivered
 
@@ -22,7 +22,7 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
     `
 
 ``Converter uma string para Enum``
-Quando o uysuario envia uma string, de um form e tal, 
+Quando o usuario envia uma string, de um form e tal, 
 - orderStatus.valueOf("DELIVERED");
 
 
@@ -36,3 +36,8 @@ Quando o uysuario envia uma string, de um form e tal,
 
 ## Ex
 Trabalhar com N contratos, solicitar um mes e mostrar qual foi o slário neste mes.
+
+## String Builder
+Quando preciso montar uma string que é muito grande.
+
+`StringBuilder sb = new StringBuilder();`
